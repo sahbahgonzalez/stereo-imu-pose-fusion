@@ -216,3 +216,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data files
+data/raw_video/
+data/imu/
+data/keypoints/
+data/processed/
+data/calibration/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.csv
+
+# Database / API secrets
+*.env
+.env.*
+secrets.*
+credentials.*
+config.local.*
+influxdb_token.txt
+
+# Local experiment outputs
+outputs/
+runs/
+logs/
